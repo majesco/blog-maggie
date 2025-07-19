@@ -1,5 +1,4 @@
-import maggie1 from '../assets/images/Maggie1.jpg'
-import maggie2 from '../assets/images/Maggie2.jpg'
+import maggieHome from '../assets/images/Maggie-home.jpeg'
 
 function Home() {
   return (
@@ -20,7 +19,7 @@ function Home() {
         <p>¡Síguenos para conocer más sobre su día a día y curiosidades sobre los perritos!</p>
       </div>
       <div className='col-md-6'>
-        <img src={maggie2} className='img-fluid mb-3 rounded' alt='Maggie jugando' />
+        <img src={maggieHome} className='img-fluid mb-3 rounded' alt='Maggie jugando' />
       </div>
     </div>
   )

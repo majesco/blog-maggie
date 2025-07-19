@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Blog from './pages/Blog'
-
+import PostDetail from './pages/PostDetail'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<PostDetail />} />
         </Routes>
       </div>
     </Router>
