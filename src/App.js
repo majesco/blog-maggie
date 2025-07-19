@@ -7,14 +7,14 @@ import PostDetail from './pages/PostDetail'
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.NODE_ENV === 'production' ? '/blog-maggie' : '/'}>
       <Navbar />
       <div className='container mt-5 pt-5'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:slug" element={<PostDetail />} />
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/blog/:slug' element={<PostDetail />} />
         </Routes>
       </div>
     </Router>
