@@ -8,14 +8,19 @@ function Blog() {
       <div
         style={{
           width: '100vw',
-          height: '300px',
+          height: '60vh', // 60% de la altura de la ventana
           marginLeft: 'calc(-50vw + 50%)',
-          overflow: 'hidden'
+          overflow: 'hidden',
+          marginTop: '-56px'
         }}>
         <img
           src={require('../assets/images/maggie-panoramic.jpeg')}
           alt='Banner del blog'
-          style={{ width: '100%', height: '120%', objectFit: 'cover' }}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover'
+          }}
         />
       </div>
 
