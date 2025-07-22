@@ -1,26 +1,56 @@
-import maggieHome from '../assets/images/Maggie-home.jpeg'
+import maggie1 from '../assets/images/maggie-panoramic.jpeg'
+import maggie2 from '../assets/images/maggie-panoramic.jpeg'
+import maggie3 from '../assets/images/maggie-panoramic.jpeg'
 
 function Home() {
   return (
-    <div className='row'>
-      <div className='col-md-6'>
-        <h1>Bienvenido al blog de Maggie 🐾</h1>
-        <p>
-          Bienvenidos a las aventuras de Maggie En este Blog te sumergiras en un mundo lleno de una border collie llena
-          de energia, donde cada historia es un viaje y cada consejo te invita a vivir una vida mas activa junto a tu
-          mejor amigo de cuatro patas.{' '}
-        </p>
-        <p>
-          Descubri la adrenalina del Canicross, rutas sorprendentes, y aventuras inolvidables que despertaran el
-          espiritu libre que llevas dentro. ¡Unete a nuestras travesias y deja que la pasion por la aventura te inspire
-          cada dia! Por aca te estaremos comprtiendo consejos, tips y experiencias en este proceso de una border collie
-          en la ciudad, lejos de las ovejas pero con trabajo diario para ser equilibrada y poder disfrutar este viaje...
-        </p>
-        <p>¡Síguenos para conocer más sobre su día a día y curiosidades sobre los perritos!</p>
+    <div className='container'>
+      <div
+        id='maggieCarousel'
+        className='carousel slide'
+        data-bs-ride='carousel'
+        style={{
+          width: '100vw',
+          height: '230px', // MISMO alto que el banner del Blog
+          marginLeft: 'calc(-50vw + 50%)',
+          marginTop: '-56px',
+          overflow: 'hidden'
+        }}>
+        {' '}
+        <div className='carousel-indicators'>
+          <button
+            type='button'
+            data-bs-target='#maggieCarousel'
+            data-bs-slide-to='0'
+            className='active'
+            aria-current='true'
+            aria-label='Slide 1'></button>
+          <button type='button' data-bs-target='#maggieCarousel' data-bs-slide-to='1' aria-label='Slide 2'></button>
+          <button type='button' data-bs-target='#maggieCarousel' data-bs-slide-to='2' aria-label='Slide 3'></button>
+        </div>
+        <div className='carousel-inner'>
+          <div className='carousel-item active'>
+            <img src={maggie1} className='d-block w-100' alt='Maggie 1' />{' '}
+          </div>
+          <div className='carousel-item'>
+            <img src={maggie2} className='d-block w-100' alt='Maggie 2' />{' '}
+          </div>
+          <div className='carousel-item'>
+            <img src={maggie1} className='d-block w-100' alt='Maggie 1' />{' '}
+          </div>
+        </div>
+        <button className='carousel-control-prev' type='button' data-bs-target='#maggieCarousel' data-bs-slide='prev'>
+          <span className='carousel-control-prev-icon' aria-hidden='true'></span>
+          <span className='visually-hidden'>Previous</span>
+        </button>
+        <button className='carousel-control-next' type='button' data-bs-target='#maggieCarousel' data-bs-slide='next'>
+          <span className='carousel-control-next-icon' aria-hidden='true'></span>
+          <span className='visually-hidden'>Next</span>
+        </button>
       </div>
-      <div className='col-md-6'>
-        <img src={maggieHome} className='img-fluid mb-3 rounded' alt='Maggie jugando' />
-      </div>
+
+      <h1 className='mb-4'>Hola, soy Maggie 🐾</h1>
+      <p className='lead'>¡Bienvenido a mis aventuras! Corre, juega y disfruta conmigo.</p>
     </div>
   )
 }
