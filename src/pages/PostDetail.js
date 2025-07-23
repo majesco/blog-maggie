@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import posts from '../data/posts'
 
 function PostDetail() {
@@ -6,24 +6,37 @@ function PostDetail() {
   const post = posts.find((p) => p.slug === slug)
 
   if (!post) {
-    return (
-      <div className='container mt-5 pt-5'>
-        <h1>😢 Post no encontrado</h1>
-        <Link to='/blog' className='btn btn-secondary mt-3'>
-          Volver al Blog
-        </Link>
-      </div>
-    )
+    return <h2 className='text-center mt-5'>Post no encontrado 🐾</h2>
   }
 
   return (
-    <div className='container mt-5 pt-5'>
-      <h1>{post.title}</h1>
-      <img src={post.image} className='img-fluid rounded mb-4' alt={post.title} />
-      <div dangerouslySetInnerHTML={{ __html: post.content }} />
-      <Link to='/blog' className='btn btn-secondary mt-4'>
-        ← Volver al Blog
-      </Link>
+    <div className='container mt-5'>
+      <h1 className='mb-4'>{post.title}</h1>
+      <p className='lead'>{post.description}</p>
+
+      {post.content.map((block, index) => {
+        if (block.type === 'text') {
+          return (
+            <p key={index} className='mb-4'>
+              {block.value}
+            </p>
+          )
+        }
+        if (block.type === 'image') {
+          return (
+            <div key={index} className='mb-4 text-center'>
+              <img
+                src={block.src}
+                alt={block.caption}
+                className='img-fluid rounded mb-2'
+                style={{ maxHeight: '300px', objectFit: 'cover' }}
+              />
+              <p className='text-muted'>{block.caption}</p>
+            </div>
+          )
+        }
+        return null
+      })}
     </div>
   )
 }

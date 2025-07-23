@@ -11,7 +11,6 @@ function Home() {
         data-bs-ride='carousel'
         style={{
           width: '100vw',
-          height: '230px', // MISMO alto que el banner del Blog
           marginLeft: 'calc(-50vw + 50%)',
           marginTop: '-56px',
           overflow: 'hidden'

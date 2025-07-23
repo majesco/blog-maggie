@@ -31,7 +31,7 @@ function Blog() {
             <div key={post.id} className='col-md-4 mb-4'>
               <div className='card h-100'>
                 <img
-                  src={post.image}
+                  src={post.coverImage} // 👈 ahora sí usa la portada correcta
                   className='card-img-top'
                   alt={post.title}
                   style={{ height: '200px', objectFit: 'cover' }}

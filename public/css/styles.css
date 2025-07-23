@@ -26,21 +26,19 @@ main {
   z-index: 1030; /* Mantiene el navbar encima del carousel */
 }
 
-/* Carousel siempre full width */
+/* Altura base del carousel (móvil) */
 #maggieCarousel {
-  width: 100vw;         /* Ocupa todo el ancho de la ventana */
-  margin-left: calc(-50vw + 50%); /* Centra para compensar cualquier container */
-  margin-top: -56px;    /* Sube para pegarlo al navbar (si navbar fixed) */
-  overflow: hidden;     /* Evita que algo sobresalga */
+  height: 230px; /* Altura pequeña para móvil */
 }
 
-#maggieCarousel .carousel-inner,
-#maggieCarousel .carousel-item {
-  width: 100%;
+/* Altura para pantallas grandes */
+@media (min-width: 768px) {
+  #maggieCarousel {
+    height: 60vh; /* 60% del alto de la ventana en pantallas grandes */
+  }
 }
 
 #maggieCarousel img {
-  width: 100%;          /* Imagen ocupa todo el ancho */
-  height: auto;         /* Altura proporcional */
-  display: block;       /* Elimina espacios fantasmas */
+  height: 100%;
+  object-fit: cover; /* Mantiene la imagen centrada y recortada si sobra */
 }
