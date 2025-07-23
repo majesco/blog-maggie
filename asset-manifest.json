@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/blog-maggie/static/js/main.7dc2f031.js",
+    "main.js": "/blog-maggie/static/js/main.25c54b4f.js",
     "static/media/Maggie1.jpg": "/blog-maggie/static/media/Maggie1.7ccdadc5f4815e223856.jpg",
     "static/media/post1-1.jpeg": "/blog-maggie/static/media/post1-1.1ebc6dd3fe4c7ec22241.jpeg",
     "static/media/cani-cross.jpeg": "/blog-maggie/static/media/cani-cross.e2268b3c88c3eb78e810.jpeg",
@@ -9,11 +9,11 @@
     "static/media/post1-2.jpeg": "/blog-maggie/static/media/post1-2.ca25e2418b5de5161fa5.jpeg",
     "static/media/maggie-panoramic.jpeg": "/blog-maggie/static/media/maggie-panoramic.3fb7be0ff13d99d5e657.jpeg",
     "static/media/maggie-sabana.jpeg": "/blog-maggie/static/media/maggie-sabana.59177e1a9f81a53736f0.jpeg",
-    "static/media/maggie-pico-blanco.jpeg": "/blog-maggie/static/media/maggie-pico-blanco.97f598941cd14c48e8c0.jpeg",
+    "static/media/maggie-pico-blanco.jpeg": "/blog-maggie/static/media/maggie-pico-blanco.bfb77075d44d52de98e7.jpeg",
     "index.html": "/blog-maggie/index.html",
-    "main.7dc2f031.js.map": "/blog-maggie/static/js/main.7dc2f031.js.map"
+    "main.25c54b4f.js.map": "/blog-maggie/static/js/main.25c54b4f.js.map"
   },
   "entrypoints": [
-    "static/js/main.7dc2f031.js"
+    "static/js/main.25c54b4f.js"
   ]
 }
