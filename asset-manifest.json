@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.js": "/blog-maggie/static/js/main.d74983b0.js",
-    "static/media/Maggie2.jpg": "/blog-maggie/static/media/Maggie2.e3e7643a7099182e72c5.jpg",
-    "static/media/Maggie3.jpg": "/blog-maggie/static/media/Maggie3.905b8edccd33f13940f2.jpg",
+    "main.js": "/blog-maggie/static/js/main.bd3c988a.js",
     "static/media/Maggie1.jpg": "/blog-maggie/static/media/Maggie1.7ccdadc5f4815e223856.jpg",
     "static/media/maggie-panoramic.jpeg": "/blog-maggie/static/media/maggie-panoramic.14868d9560c4542963e4.jpeg",
     "index.html": "/blog-maggie/index.html",
-    "main.d74983b0.js.map": "/blog-maggie/static/js/main.d74983b0.js.map"
+    "main.bd3c988a.js.map": "/blog-maggie/static/js/main.bd3c988a.js.map"
   },
   "entrypoints": [
-    "static/js/main.d74983b0.js"
+    "static/js/main.bd3c988a.js"
   ]
 }
