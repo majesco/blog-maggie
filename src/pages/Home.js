@@ -1,6 +1,6 @@
-import maggie1 from '../assets/images/maggie-sabana.jpeg'
-import maggie2 from '../assets/images/maggie-pico-blanco.jpeg'
-import maggie3 from '../assets/images/maggie-panoramic.jpeg'
+import maggieHome1 from '../assets/images/maggie-home1.jpg'
+import maggieHome2 from '../assets/images/Maggie1.jpg'
+import maggieHome3 from '../assets/images/Maggie1.jpg'
 
 function Home() {
   return (
@@ -29,13 +29,13 @@ function Home() {
         </div>
         <div className='carousel-inner'>
           <div className='carousel-item active'>
-            <img src={maggie1} className='d-block w-100' alt='Maggie 1' />{' '}
+            <img src={maggieHome1} className='d-block w-100' alt='Maggie 1' />{' '}
           </div>
           <div className='carousel-item'>
-            <img src={maggie2} className='d-block w-100' alt='Maggie 2' />{' '}
+            <img src={maggieHome2} className='d-block w-100' alt='Maggie 2' />{' '}
           </div>
           <div className='carousel-item'>
-            <img src={maggie3} className='d-block w-100' alt='Maggie 1' />{' '}
+            <img src={maggieHome3} className='d-block w-100' alt='Maggie 1' />{' '}
           </div>
         </div>
         <button className='carousel-control-prev' type='button' data-bs-target='#maggieCarousel' data-bs-slide='prev'>
@@ -48,21 +48,32 @@ function Home() {
         </button>
       </div>
 
-      <h1 className='mb-4'>Hola, soy Maggie 🐾</h1>
-      <p className='lead'>Hola soy Maggie, no Maggie Sipmson ni la sopa Maggie soy, Maggie la Border Collie.</p>
+      <h1 className='mb-4'>Hola, soy Maggie</h1>
+      <p className='lead'>(No Maggie Simpson… ¡y tampoco la sopa Maggi!) ¡Soy Maggie, la Border Collie! 🐾</p>
       <p>
-        Nacida en octúbre, viviendo en la capital de Costa Rica, país en la mitad del continente e americano, soy amada
-        y consentida por mis humanos, que son aventureros como yo. Disfruto mucho del tiempo al aire libre, las
-        caminatas, las buenas croquetas y de las carreras de canicross, y es que tienen que ver mis caras cuando ando
-        corriendo feliz con la lengua afuera.
+        Nací en octubre y vivo en la capital de Costa Rica, ese hermoso país justo en el corazón del continente
+        americano. Soy amada y consentida por mis humanos, quienes, al igual que yo, son aventureros de corazón. Aunque
+        no tengo ovejas que pastorear en esta ciudad, mis humanos se las ingenian para mantenerme activa, feliz y
+        saludable.
       </p>
       <p>
-        Mis humanos Nicolás y Yanina me cuidan y guían para ser una perrita feliz y equilibrada pero sin olvidar que soy
-        una perrita…
+        Vivir en la ciudad puede ser todo un reto: hay ruido, carros, motos, personas por todas partes… ¡y poca calma!
+        Pero juntos, en equipo, trabajamos todos los días para canalizar mis instintos de perrita de trabajo y cubrir
+        mis verdaderas necesidades.
       </p>
       <p>
-        En este blog te mostrare el mundo desde mi perspectiva, mis aventuras, competencias de Cani-Cross y mi día a
-        día!
+        Disfruto muchísimo del aire libre, de las caminatas largas, de unas buenas croquetitas… ¡y sobre todo de las
+        carreras de canicross! Si vieras mi carita cuando salimos a correr… ¡voy con la lengua afuera y una sonrisa de
+        oreja a oreja mientras llevo a mi humana casi volando detrás!
+      </p>
+      <p>
+        En este blog vas a encontrar todo sobre mis competencias, aventuras, descubrimientos y muchísimas cosas útiles
+        que nos han ayudado a ser un gran equipo humano-perruno. Porque más allá de ser una atleta de cuatro patas,
+        aspiro cada día a ser lo que más importa: <p className='lead'>una perrita feliz.</p>
+      </p>
+      <p>
+        Gracias al amor y la dedicación de mis humanos, aprendemos a convivir en armonía… ¡y a disfrutar cada día al
+        máximo!
       </p>
     </div>
   )
