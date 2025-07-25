@@ -2,7 +2,7 @@ import maggie1 from '../assets/images/about.jpg'
 
 function About() {
   return (
-    <div className='container mt-5'>
+    <div className='container' style={{ marginTop: '5rem' }}>
       <div className='row align-items-center'>
         {/* Columna de la foto */}
         <div className='col-md-4 text-center mb-4 mb-md-0'>

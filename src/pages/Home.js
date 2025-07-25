@@ -4,20 +4,20 @@ import maggieHome3 from '../assets/images/maggie-home3.jpg'
 
 function Home() {
   return (
-    <div className='container'>
-      <div className='row align-items-center'>
+    <div className='container' style={{ marginTop: '5rem', marginBottom: '5rem' }}>
+      <div className='row align-items-stretch'>
         {/* CARRUSEL */}
-        <div className='col-12 col-md-6 mb-4 mb-md-0'>
-          <div id='maggieCarousel' className='carousel slide' data-bs-ride='carousel'>
+        <div className='col-12 col-md-6 mb-4 mb-md-0 d-flex flex-column justify-content-center'>
+          <div id='maggieCarousel' className='carousel slide h-100' style={{ minHeight: '90%' }}>
             <div className='carousel-inner rounded shadow'>
               <div className='carousel-item active'>
-                <img src={maggieHome1} className='w-100' alt='Maggie 1' />
+                <img src={maggieHome1} className='d-block w-100 img-fluid' alt='Maggie 1' />
               </div>
               <div className='carousel-item'>
-                <img src={maggieHome2} className=' w-100' alt='Maggie 2' />
+                <img src={maggieHome2} className='d-block w-100 img-fluid' alt='Maggie 2' />
               </div>
               <div className='carousel-item'>
-                <img src={maggieHome3} className='w-100' alt='Maggie 3' />
+                <img src={maggieHome3} className='d-block w-100 img-fluid' alt='Maggie 3' />
               </div>
             </div>
             <button

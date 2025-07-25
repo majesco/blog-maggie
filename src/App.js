@@ -17,7 +17,7 @@ function App() {
       }}>
       <Router basename={process.env.NODE_ENV === 'production' ? '/blog-maggie' : '/'}>
         <Navbar />
-        <main className='container mt-5 pt-5 flex-grow-1'>
+        <main className='container pt-4 flex-grow-1'>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
