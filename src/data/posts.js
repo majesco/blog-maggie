@@ -4,7 +4,7 @@ const posts = [
     slug: 'un-dia-en-la-sabana',
     title: 'Correr con tu amigo de cuatro patas 🦮',
     description: 'Bienvenida al mundo del Cani-Cross',
-    coverImage: require('../assets/images/cani-cross.jpeg'), // imagen principal
+    coverImage: require('../assets/images/post1-front.jpg'), // imagen principal
     content: [
       {
         type: 'text',
@@ -18,7 +18,7 @@ const posts = [
       },
       {
         type: 'image',
-        src: require('../assets/images/post1-1.jpeg'),
+        src: require('../assets/images/post1-1.jpg'),
         caption: 'Trail Dog Run Laguna Don Manuel, 2024 - © Rey Mono'
       },
       {
@@ -33,7 +33,7 @@ const posts = [
       },
       {
         type: 'image',
-        src: require('../assets/images/post1-2.jpeg'),
+        src: require('../assets/images/post1-2.jpg'),
         caption: 'Trail Dog Run Volcán Turrialba, 2023 - © The Pup'
       },
       {
@@ -48,7 +48,7 @@ const posts = [
       },
       {
         type: 'image',
-        src: require('../assets/images/post1-3.jpeg'),
+        src: require('../assets/images/post1-3.jpg'),
         caption: 'Trail Dog Run Monteverde, 2022 - © The Pup'
       },
       {
@@ -87,9 +87,9 @@ const posts = [
   {
     id: 2,
     slug: 'caminata-perruna-en-los-cerros-de-escazu',
-    title: 'Caminata perruna en los Cerros de Escazú',
+    title: 'Caminata perruna en los Cerros de Escazú ⛰️',
     description: 'Hike en los Cerros de Escazú',
-    coverImage: require('../assets/images/cani-cross.jpeg'), // imagen principal
+    coverImage: require('../assets/images/maggie-home2.jpg'), // imagen principal
     content: [
       {
         type: 'text',
@@ -103,8 +103,8 @@ const posts = [
       },
       {
         type: 'image',
-        src: require('../assets/images/post1-1.jpeg'),
-        caption: 'Trail Dog Run Laguna Don Manuel, 2024 - © Rey Mono'
+        src: require('../assets/images/post2-1.jpg'),
+        caption: 'Posando como que no me di cuenta - © Puppyrazzicr'
       },
       {
         type: 'text',
@@ -118,8 +118,8 @@ const posts = [
       },
       {
         type: 'image',
-        src: require('../assets/images/post1-2.jpeg'),
-        caption: 'Trail Dog Run Volcán Turrialba, 2023 - © The Pup'
+        src: require('../assets/images/post2-2.jpg'),
+        caption: 'Contemplando el paisaje - © Puppyrazzicr'
       },
       {
         type: 'text',
@@ -132,8 +132,8 @@ const posts = [
       },
       {
         type: 'image',
-        src: require('../assets/images/post1-3.jpeg'),
-        caption: 'Trail Dog Run Monteverde, 2022 - © The Pup'
+        src: require('../assets/images/post2-3.jpg'),
+        caption: 'Con mis humanos favoritos - © Puppyrazzicr'
       },
       {
         type: 'text',
@@ -144,6 +144,54 @@ const posts = [
         type: 'text',
         value:
           'Así que, en resumen: la pasé increíble y ya estoy esperando con ansias la próxima aventura explorando cerritos.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post2-4.jpg'),
+        caption: 'Con mi manada - © Puppyrazzicr'
+      }
+    ]
+  },
+  {
+    id: 3,
+    slug: 'caminata-perruna-pata-caliente',
+    title: '¡Nuestra primera experiencia Pata Caliente 🔥!',
+    description: 'Corriendo en la Sabana 🌳',
+    coverImage: require('../assets/images/post3-front.jpg'), // imagen principal
+    content: [
+      {
+        type: 'text',
+        value:
+          'Hoy participamos en nuestro primer evento de Pata Caliente, una actividad gratuita y con un propósito hermoso: apoyar a los peluditos de Perro Callejero CR. Nos inscribimos fácilmente por Instagram y decidimos asistir con toda la emoción del mundo.'
+      },
+      {
+        type: 'text',
+        value:
+          'La dinámica era sencilla, pero el motivo de celebración lo hacía especial: cada persona podía llevar un donativo —alimento, artículos de higiene, juguetes, entre otros— para ayudar a los perritos rescatados. ¡Imagínense lo felices que van a estar esos peluditos! Seguramente sus colitas no van a parar de moverse con tanta alegría gracias a todo lo que se logró recolectar.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post3-1.jpg'),
+        caption: 'Siempre lista para la foto - © Rey Mono'
+      },
+      {
+        type: 'text',
+        value:
+          'El evento se realizó en un espacio abierto con rutas para canicross de distintos niveles, incluyendo una caminata recreativa. ¡La pasamos increíble! Y lo mejor de todo fue que la actividad se hizo en honor al Día del Perro, celebrando con propósito y empatía.'
+      },
+      {
+        type: 'text',
+        value:
+          'Yo, Maggie, estuve FELIZ. Corrí 5 km a toda velocidad con mi humana… bueno, digamos que ella iba con la lengua afuera, pero ¡lo logró! (sí, lo repito: ¡mi humana lo logróoo!).'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post3-2.jpg'),
+        caption: 'Arrastrando a mi humana - © Rey Mono'
+      },
+      {
+        type: 'text',
+        value: 'Otra aventura más para nosotras, y esta vez con un motivo que alegra corazones peludos 💛🐾'
       }
     ]
   }

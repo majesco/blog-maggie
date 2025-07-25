@@ -14,7 +14,7 @@ function Blog() {
           marginTop: '-56px'
         }}>
         <img
-          src={require('../assets/images/maggie-don-manuel.jpeg')}
+          src={require('../assets/images/maggie-blog.jpg')}
           alt='Banner del blog'
           style={{
             width: '100%',
