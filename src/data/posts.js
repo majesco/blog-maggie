@@ -83,6 +83,69 @@ const posts = [
         value: 'Y esto, más que Canicross… es vivir.'
       }
     ]
+  },
+  {
+    id: 2,
+    slug: 'caminata-perruna-en-los-cerros-de-escazu',
+    title: 'Caminata perruna en los Cerros de Escazú',
+    description: 'Hike en los Cerros de Escazú',
+    coverImage: require('../assets/images/cani-cross.jpeg'), // imagen principal
+    content: [
+      {
+        type: 'text',
+        value:
+          'En febrero de este año, nos apuntamos a una caminata perruna organizada por Brujo  Tours, en un cerro de Escazú. Mis humanos vieron los anuncios en redes sociales y, como no nos resistimos a una nueva aventura, ¡nos anotamos de inmediato!'
+      },
+      {
+        type: 'text',
+        value:
+          'Ese día madrugamos bien temprano. Mis humanos desayunaron sus típicas delicias y yo, por supuesto, mis cróquetitas de pollo. Me alistaron con mi pechera, correa, unos cuantos snacks y una buena provisión de bolsitas para mis desechos… ¡como si fuéramos a una expedición!'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post1-1.jpeg'),
+        caption: 'Trail Dog Run Laguna Don Manuel, 2024 - © Rey Mono'
+      },
+      {
+        type: 'text',
+        value:
+          'Al llegar, pasaron lista para asegurarse de que todos estuviéramos presentes. Había muchos nuevos amigos, humanos y peluditos como yo. Al principio fui un poco tímida, pero poco a poco me fui soltando. Caminamos por senderos, subimos montañas… ¡todos los peluditos andábamos felices y moviendo la cola! Algunos humanos estaban poniendo bastante esfuerzo, pero aun así se veían contentos.'
+      },
+      {
+        type: 'text',
+        value:
+          'Llegamos a un mirador desde donde se veía la ciudad. ¡Se veía enorme! Todo estaba en silencio, con un cielo azul despejado que parecía pintado. Y lo mejor de todo… ¡había boñiga de vaca! Eso, para mí, es sinónimo de mascarilla natural para un pelaje brillante y sedoso. Me revolqué feliz y, bueno, también me comí un poquito. Mi humana, cuando me vio, se quedó pálida. Creo que no le hizo mucha gracia… sobre todo por el olor. ¡A mí me parecía exquisito!'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post1-2.jpeg'),
+        caption: 'Trail Dog Run Volcán Turrialba, 2023 - © The Pup'
+      },
+      {
+        type: 'text',
+        value:
+          'Todos estábamos disfrutando del paisaje y de la hermosa mañana de verano. Conocí nuevos amigos, pedí cariñitos y hasta me gané unas galletitas. Pero lo mejor aún estaba por venir: ¡había una catarata! El agua era fría y deliciosa, así que no dudé en darme un buen chapuzón.'
+      },
+      {
+        type: 'text',
+        value: 'Los amigos de Pupparazzi nos tomaron unas fotos divinas que capturaron la esencia de nuestra aventura.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post1-3.jpeg'),
+        caption: 'Trail Dog Run Monteverde, 2022 - © The Pup'
+      },
+      {
+        type: 'text',
+        value:
+          'Y para cerrar con broche de oro, ¡hubo una rifa! Mi humano está en todas y se ganó un juguetito para mí. Me hizo muy feliz.'
+      },
+      {
+        type: 'text',
+        value:
+          'Así que, en resumen: la pasé increíble y ya estoy esperando con ansias la próxima aventura explorando cerritos.'
+      }
+    ]
   }
 ]
 
