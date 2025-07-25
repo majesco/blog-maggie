@@ -1,45 +1,52 @@
 html, body {
   height: 100%;
   background-color: #E6E6FA; /* Lila claro */
-}
-#root {
-  height: 100%;
+  margin: 0;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  padding-top: 0 !important;
-}
 #root {
-  flex: 1;
   display: flex;
   flex-direction: column;
+  min-height: 100%;
 }
 
+/* Asegura que el main ocupe todo el espacio disponible si hay poco contenido */
 main {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Si el navbar es fixed-top, aseguramos que no agregue espacio */
+/* Navbar fijo, sin margen innecesario */
 .navbar {
-  margin-bottom: 0 !important;
-  z-index: 1030; /* Mantiene el navbar encima del carousel */
+  margin-bottom: 0;
+  z-index: 1030;
 }
 
-/* Altura base del carousel (móvil) */
+/* Carousel responsive */
 #maggieCarousel {
-  height: 230px; /* Altura pequeña para móvil */
+  height: 230px; /* Móvil por defecto */
+  overflow: hidden;
 }
 
-/* Altura para pantallas grandes */
 @media (min-width: 768px) {
   #maggieCarousel {
-    height: 60vh; /* 60% del alto de la ventana en pantallas grandes */
+    height: 60vh;
   }
 }
 
 #maggieCarousel img {
+  width: 100%;
   height: 100%;
-  object-fit: cover; /* Mantiene la imagen centrada y recortada si sobra */
+  object-fit: cover;
+  display: block;
+}
+
+/* Opcional: margen superior al contenido para compensar el navbar fixed-top */
+main > .container {
+  margin-top: 4.5rem; /* Aprox. la altura del navbar */
+}
+
+main.container {
+  padding-top: 4.5rem; /* Ajusta según altura real del navbar */
 }
