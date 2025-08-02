@@ -15,7 +15,7 @@ function App() {
         display: 'flex',
         flexDirection: 'column'
       }}>
-      <Router basename={process.env.NODE_ENV === 'production' ? '/blog-maggie' : '/'}>
+      <Router>
         <Navbar />
         <main className='container pt-4 flex-grow-1'>
           <Routes>

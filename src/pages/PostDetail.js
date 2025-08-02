@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom'
 import posts from '../data/posts'
+import DOMPurify from 'dompurify'
 
 function PostDetail() {
   const { slug } = useParams()
@@ -17,9 +18,7 @@ function PostDetail() {
       {post.content.map((block, index) => {
         if (block.type === 'text') {
           return (
-            <p key={index} className='mb-4'>
-              {block.value}
-            </p>
+            <div key={index} className='mb-4' dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(block.value) }} />
           )
         }
         if (block.type === 'image') {
