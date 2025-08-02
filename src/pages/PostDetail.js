@@ -28,7 +28,7 @@ function PostDetail() {
                 src={block.src}
                 alt={block.caption}
                 className='img-fluid rounded mb-2'
-                style={{ maxHeight: '300px', objectFit: 'cover' }}
+                style={{ maxHeight: '400px', objectFit: 'cover' }}
               />
               <p className='text-muted'>{block.caption}</p>
             </div>
