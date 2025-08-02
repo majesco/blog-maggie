@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/blog-maggie/static/js/main.352b44d6.js",
+    "main.js": "/blog-maggie/static/js/main.cc9badca.js",
     "static/media/about.jpg": "/blog-maggie/static/media/about.7ccdadc5f4815e223856.jpg",
     "static/media/post1-1.jpg": "/blog-maggie/static/media/post1-1.1ebc6dd3fe4c7ec22241.jpg",
     "static/media/maggie-blog.jpg": "/blog-maggie/static/media/maggie-blog.a684fef18c2c6a2ac99f.jpg",
@@ -8,19 +8,23 @@
     "static/media/post1-3.jpg": "/blog-maggie/static/media/post1-3.58b2a2710bbc3f89f9e2.jpg",
     "static/media/maggie-home1.jpg": "/blog-maggie/static/media/maggie-home1.26bb15c94e100f5e0158.jpg",
     "static/media/maggie-home3.jpg": "/blog-maggie/static/media/maggie-home3.cdfbbea6cc7d50c52d4f.jpg",
+    "static/media/post4-front.jpg": "/blog-maggie/static/media/post4-front.624802cc332d6bcba445.jpg",
     "static/media/post3-1.jpg": "/blog-maggie/static/media/post3-1.a92dc4b5db5c7fbe5228.jpg",
     "static/media/post1-2.jpg": "/blog-maggie/static/media/post1-2.ca25e2418b5de5161fa5.jpg",
+    "static/media/post4-1.jpg": "/blog-maggie/static/media/post4-1.73752a13371d9b15e873.jpg",
+    "static/media/post4-2.jpg": "/blog-maggie/static/media/post4-2.bb7395e451bff3fffd20.jpg",
     "static/media/post3-2.jpg": "/blog-maggie/static/media/post3-2.ca967d466c82fabaf381.jpg",
     "static/media/post2-2.jpg": "/blog-maggie/static/media/post2-2.c055368ddec0e6c8fcc9.jpg",
     "static/media/post2-1.jpg": "/blog-maggie/static/media/post2-1.a5915c9f448c38010705.jpg",
+    "static/media/post4-3.jpg": "/blog-maggie/static/media/post4-3.faeb8b068099ddf8fce4.jpg",
     "static/media/post2-4.jpg": "/blog-maggie/static/media/post2-4.145f70d33f62c343212f.jpg",
     "static/media/post2-3.jpg": "/blog-maggie/static/media/post2-3.a40d4113bca11dc482ea.jpg",
     "static/media/post3-front.jpg": "/blog-maggie/static/media/post3-front.f7be4f40cb888a2e4e98.jpg",
     "static/media/maggie-home2.jpg": "/blog-maggie/static/media/maggie-home2.356b5c13d509f477d0f6.jpg",
     "index.html": "/blog-maggie/index.html",
-    "main.352b44d6.js.map": "/blog-maggie/static/js/main.352b44d6.js.map"
+    "main.cc9badca.js.map": "/blog-maggie/static/js/main.cc9badca.js.map"
   },
   "entrypoints": [
-    "static/js/main.352b44d6.js"
+    "static/js/main.cc9badca.js"
   ]
 }
