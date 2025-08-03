@@ -27,25 +27,28 @@ function Blog() {
       <div className='container mt-5'>
         <h1 className='mb-4'>Últimas Aventuras 🐶</h1>
         <div className='row'>
-          {posts.map((post) => (
-            <div key={post.id} className='col-md-4 mb-4'>
-              <div className='card h-100'>
-                <img
-                  src={post.coverImage} // 👈 ahora sí usa la portada correcta
-                  className='card-img-top'
-                  alt={post.title}
-                  style={{ height: '200px', objectFit: 'cover' }}
-                />
-                <div className='card-body'>
-                  <h5 className='card-title'>{post.title}</h5>
-                  <p className='card-text'>{post.description}</p>
-                  <Link to={`/blog/${post.slug}`} className='btn btn-primary'>
-                    Leer más
-                  </Link>
+          {posts
+            .slice()
+            .reverse()
+            .map((post) => (
+              <div key={post.id} className='col-md-4 mb-4'>
+                <div className='card h-100'>
+                  <img
+                    src={post.coverImage} // 👈 ahora sí usa la portada correcta
+                    className='card-img-top'
+                    alt={post.title}
+                    style={{ height: '200px', objectFit: 'cover' }}
+                  />
+                  <div className='card-body'>
+                    <h5 className='card-title'>{post.title}</h5>
+                    <p className='card-text'>{post.description}</p>
+                    <Link to={`/blog/${post.slug}`} className='btn btn-primary'>
+                      Leer más
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
       </div>
     </>

@@ -12,6 +12,7 @@ function PostDetail() {
 
   return (
     <div className='container mt-5'>
+      <br></br>
       <h1 className='mb-4'>{post.title}</h1>
       <p className='lead'>{post.description}</p>
 

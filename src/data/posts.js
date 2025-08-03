@@ -1,83 +1,6 @@
 const posts = [
   {
     id: 1,
-    slug: 'implementos-carrera-canicross',
-    title: 'Nuestros implementos para el día de la carrera de Canicross',
-    description: 'Preparación pre-competencia',
-    coverImage: require('../assets/images/post4-front.jpg'), // imagen principal
-    content: [
-      {
-        type: 'image',
-        src: require('../assets/images/post4-1.jpg'),
-        caption: 'La segunda carrera de Trail Dog Run: Edición Figues, 2025'
-      },
-      {
-        type: 'text',
-        value:
-          '<strong>Cuando estamos en vísperas de una competición</strong>, no queda más que calmar los nervios preparando todo lo que podríamos llegar a necesitar, tanto Maggie como yo. Claro, sin dejar de lado los entrenamientos semanales que son fundamentales para llegar en forma a la carrera y no morir en el intento. Al final, más allá del resultado, lo más importante es disfrutar del proceso.'
-      },
-      {
-        type: 'text',
-        value: `
-    <p><b>Para Maggie, hay varios elementos esenciales:</b></p>
-    <ul>
-      <li>Taza para el agua</li>
-      <li>Hidratación suficiente</li>
-      <li>Arnés especial de Canicross</li>
-      <li>Línea de tiro (una banda elástica que conecta su arnés con el mío)</li>
-      <li>Bolsitas para desechos</li>
-      <li>Crema para las patitas</li>
-      <li>Correa extra para antes y después de la competencia</li>
-      <li>Una toalla para secarla o limpiarla si se ensucia</li>
-    </ul>`
-      },
-      {
-        type: 'image',
-        src: require('../assets/images/post4-2.jpg'),
-        caption: 'Mi pechera, arnés y línea de tiro de Cani Cross, 2025'
-      },
-      {
-        type: 'text',
-        value: `
-    <p><b>Para mí, la humana, también hay cosas importantes que no pueden faltar:</b></p>
-    <ul>
-      <li>Bloqueador solar</li>
-      <li>Tenis de trail running</li>
-      <li>Arnés para sujetar a Maggie</li>
-      <li>Camelbak (o sistema de hidratación personal)</li>
-      <li>Gafas de sol, según preferencia</li>
-      <li>Cambio de ropa extra</li>
-      <li>Gasilla para fijar el dorsal</li>
-    </ul>`
-      },
-      {
-        type: 'text',
-        value:
-          'Además, está lo que incluye el paquete de inscripción, que por lo general trae el dorsal, la camiseta del evento y una bandana para el perrito.'
-      },
-      {
-        type: 'text',
-        value:
-          'Algo que también nos funciona muy bien es llevar una hielera con bastante hidratación para ambas. Y como extra, una pechera diferente (la que usamos para caminatas diarias), que podemos usar al final para cambiarla y manejar más fácilmente a Maggie luego de la carrera.'
-      },
-      {
-        type: 'text',
-        value:
-          'Estas son algunas de las cosas que preparamos. Algunas son indispensables, otras opcionales, y pueden variar un poco dependiendo del evento.'
-      },
-      {
-        type: 'text',
-        value: '<strong>Y por supuesto… un corazón dispuesto a disfrutar de la experiencia con tu peludito. ❤️</strong>'
-      },
-      {
-        type: 'image',
-        src: require('../assets/images/post4-3.jpg'),
-        caption: 'Dándolo todo pero feliz, 2025'
-      }
-    ]
-  },
-  {
-    id: 2,
     slug: 'un-dia-en-la-sabana',
     title: 'Correr con tu amigo de cuatro patas 🦮',
     description: 'Bienvenida al mundo del Cani-Cross',
@@ -162,7 +85,7 @@ const posts = [
     ]
   },
   {
-    id: 3,
+    id: 2,
     slug: 'caminata-perruna-en-los-cerros-de-escazu',
     title: 'Caminata perruna en los Cerros de Escazú ⛰️',
     description: 'Hike en los Cerros de Escazú',
@@ -230,7 +153,7 @@ const posts = [
     ]
   },
   {
-    id: 4,
+    id: 3,
     slug: 'caminata-perruna-pata-caliente',
     title: '¡Nuestra primera experiencia Pata Caliente 🔥!',
     description: 'Corriendo en la Sabana 🌳',
@@ -269,6 +192,132 @@ const posts = [
       {
         type: 'text',
         value: 'Otra aventura más para nosotras, y esta vez con un motivo que alegra corazones peludos 💛🐾'
+      }
+    ]
+  },
+  {
+    id: 4,
+    slug: 'implementos-carrera-canicross',
+    title: 'Nuestros implementos para el día de la carrera de Canicross',
+    description: 'Preparación pre-competencia',
+    coverImage: require('../assets/images/post4-front.jpg'), // imagen principal
+    content: [
+      {
+        type: 'image',
+        src: require('../assets/images/post4-1.jpg'),
+        caption: 'La segunda carrera de Trail Dog Run: Edición Figues, 2025'
+      },
+      {
+        type: 'text',
+        value:
+          '<strong>Cuando estamos en vísperas de una competición</strong>, no queda más que calmar los nervios preparando todo lo que podríamos llegar a necesitar, tanto Maggie como yo. Claro, sin dejar de lado los entrenamientos semanales que son fundamentales para llegar en forma a la carrera y no morir en el intento. Al final, más allá del resultado, lo más importante es disfrutar del proceso.'
+      },
+      {
+        type: 'text',
+        value: `
+    <p><b>Para Maggie, hay varios elementos esenciales:</b></p>
+    <ul>
+      <li>Taza para el agua</li>
+      <li>Hidratación suficiente</li>
+      <li>Arnés especial de Canicross</li>
+      <li>Línea de tiro (una banda elástica que conecta su arnés con el mío)</li>
+      <li>Bolsitas para desechos</li>
+      <li>Crema para las patitas</li>
+      <li>Correa extra para antes y después de la competencia</li>
+      <li>Una toalla para secarla o limpiarla si se ensucia</li>
+    </ul>`
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post4-2.jpg'),
+        caption: 'Mi pechera, arnés y línea de tiro de Cani Cross, 2025'
+      },
+      {
+        type: 'text',
+        value: `
+    <p><b>Para mí, la humana, también hay cosas importantes que no pueden faltar:</b></p>
+    <ul>
+      <li>Bloqueador solar</li>
+      <li>Tenis de trail running</li>
+      <li>Arnés para sujetar a Maggie</li>
+      <li>Camelbak (o sistema de hidratación personal)</li>
+      <li>Gafas de sol, según preferencia</li>
+      <li>Cambio de ropa extra</li>
+      <li>Gasilla para fijar el dorsal</li>
+    </ul>`
+      },
+      {
+        type: 'text',
+        value:
+          'Además, está lo que incluye el paquete de inscripción, que por lo general trae el dorsal, la camiseta del evento y una bandana para el perrito.'
+      },
+      {
+        type: 'text',
+        value:
+          'Algo que también nos funciona muy bien es llevar una hielera con bastante hidratación para ambas. Y como extra, una pechera diferente (la que usamos para caminatas diarias), que podemos usar al final para cambiarla y manejar más fácilmente a Maggie luego de la carrera.'
+      },
+      {
+        type: 'text',
+        value:
+          'Estas son algunas de las cosas que preparamos. Algunas son indispensables, otras opcionales, y pueden variar un poco dependiendo del evento.'
+      },
+      {
+        type: 'text',
+        value: '<strong>Y por supuesto… un corazón dispuesto a disfrutar de la experiencia con tu peludito. ❤️</strong>'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post4-3.jpg'),
+        caption: 'Dándolo todo pero feliz, 2025'
+      }
+    ]
+  },
+  {
+    id: 5,
+    slug: 'trail-dog-figues',
+    title: 'Trail Dog Run Figes 🏞🐾 ',
+    description: '¡Lo dimos todo! 💪✨',
+    coverImage: require('../assets/images/post5-front.jpg'), // imagen principal
+    content: [
+      {
+        type: 'image',
+        src: require('../assets/images/post5-1.jpg'),
+        caption: 'Llegando de la competencia OPEN, mi humana muriendo'
+      },
+      {
+        type: 'text',
+        value:
+          'Este finde nos lanzamos con todo en el Trail Dog Run en Figes. En la categoría <strong>Sprint (1 km a máxima velocidad)</strong> quedamos de séptimas, y en la Open (5 km) logramos un quinto lugar 🥳.'
+      },
+      {
+        type: 'text',
+        value:
+          '¡No fueron nuestros mejores tiempos de pace, pero sí una de las experiencias más bonitas y retadoras que hemos vivido! 💚'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post5-2.jpg'),
+        caption: 'Llegando de la competencia SPRINT, mi humana muriendo'
+      },
+      {
+        type: 'text',
+        value:
+          'La humana (o sea yo 🫠) casi se rinde antes del Open, porque no me estaba sintiendo bien… pero al final decidimos intentarlo y lo logramos juntas 🐶👟.'
+      },
+      {
+        type: 'text',
+        value:
+          'Cada carrera nos deja aprendizajes, risas, esfuerzo y esa conexión única entre humano y perrito que solo quienes corremos juntos entendemos. ¡Seguimos entrenando, mejorando y disfrutando este camino! 🐕💨'
+      },
+      {
+        type: 'text',
+        value:
+          'Gracias a Trail Dog Run Costa Rica por tremendo evento, a los amigos que siempre nos animan, y a los que nos acompañan en cada paso. 🫶'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post5-3.jpg'),
+        caption: 'Ningún río nos detiene 🏞️'
       }
     ]
   }
