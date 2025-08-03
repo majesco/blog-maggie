@@ -282,7 +282,7 @@ const posts = [
       {
         type: 'image',
         src: require('../assets/images/post5-1.jpg'),
-        caption: 'Llegando de la competencia OPEN, mi humana muriendo'
+        caption: 'Llegando de la competencia OPEN, mi humana recansada'
       },
       {
         type: 'text',
@@ -297,7 +297,7 @@ const posts = [
       {
         type: 'image',
         src: require('../assets/images/post5-2.jpg'),
-        caption: 'Llegando de la competencia SPRINT, mi humana muriendo'
+        caption: 'Llegando de la competencia SPRINT, con toda la pata!'
       },
       {
         type: 'text',
