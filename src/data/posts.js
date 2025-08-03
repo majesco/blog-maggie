@@ -275,7 +275,7 @@ const posts = [
   {
     id: 5,
     slug: 'trail-dog-figues',
-    title: 'Trail Dog Run Figes 🏞🐾 ',
+    title: 'Trail Dog Run Figues 🏞🐾 ',
     description: '¡Lo dimos todo! 💪✨',
     coverImage: require('../assets/images/post5-front.jpg'), // imagen principal
     content: [
@@ -287,7 +287,7 @@ const posts = [
       {
         type: 'text',
         value:
-          'Este finde nos lanzamos con todo en el Trail Dog Run en Figes. En la categoría <strong>Sprint (1 km a máxima velocidad)</strong> quedamos de séptimas, y en la Open (5 km) logramos un quinto lugar 🥳.'
+          'Este finde nos lanzamos con todo en el Trail Dog Run en Figues. En la categoría <strong>Sprint (1 km a máxima velocidad)</strong> quedamos de séptimas, y en la Open (5 km) logramos un quinto lugar 🥳.'
       },
       {
         type: 'text',
