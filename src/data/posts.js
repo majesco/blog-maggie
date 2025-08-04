@@ -281,8 +281,8 @@ const posts = [
     content: [
       {
         type: 'image',
-        src: require('../assets/images/post5-1.jpg'),
-        caption: 'Llegando de la competencia OPEN, mi humana recansada'
+        src: require('../assets/images/post5-2.jpg'),
+        caption: 'Salida del Sprint!'
       },
       {
         type: 'text',
@@ -296,8 +296,8 @@ const posts = [
       },
       {
         type: 'image',
-        src: require('../assets/images/post5-2.jpg'),
-        caption: 'Llegando de la competencia SPRINT, con toda la pata!'
+        src: require('../assets/images/post5-1.jpg'),
+        caption: 'Llegando del Sprint! Mi humana en las últimas.'
       },
       {
         type: 'text',
@@ -312,7 +312,7 @@ const posts = [
       {
         type: 'text',
         value:
-          'Gracias a Trail Dog Run Costa Rica por tremendo evento, a los amigos que siempre nos animan, y a los que nos acompañan en cada paso. 🫶'
+          'Gracias a Trail Dog Run Costa Rica por tremendo evento, a los amigos que siempre nos animan, y a los que nos acompañan en cada paso. 🫶 Nos vemos en la próxima!'
       },
       {
         type: 'image',
