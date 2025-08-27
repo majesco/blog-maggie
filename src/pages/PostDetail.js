@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async'
 import { useParams } from 'react-router-dom'
 import posts from '../data/posts'
 import DOMPurify from 'dompurify'
@@ -12,6 +13,10 @@ function PostDetail() {
 
   return (
     <div className='container mt-5'>
+      <Helmet>
+        <title>{post.title} | Blog de Maggie 🐾</title>
+        <meta name='description' content={post.description} />
+      </Helmet>
       <br></br>
       <h1 className='mb-4'>{post.title}</h1>
       <p className='lead'>{post.description}</p>

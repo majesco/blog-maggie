@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Blog from './pages/Blog'
 import PostDetail from './pages/PostDetail'
+import { HelmetProvider } from 'react-helmet-async'
 
 function App() {
   return (
@@ -15,18 +16,20 @@ function App() {
         display: 'flex',
         flexDirection: 'column'
       }}>
-      <Router>
-        <Navbar />
-        <main className='container pt-4 flex-grow-1'>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/blog' element={<Blog />} />
-            <Route path='/blog/:slug' element={<PostDetail />} />
-          </Routes>
-        </main>
-        <Footer />
-      </Router>
+      <HelmetProvider>
+        <Router>
+          <Navbar />
+          <main className='container pt-4 flex-grow-1'>
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/blog' element={<Blog />} />
+              <Route path='/blog/:slug' element={<PostDetail />} />
+            </Routes>
+          </main>
+          <Footer />
+        </Router>
+      </HelmetProvider>
     </div>
   )
 }

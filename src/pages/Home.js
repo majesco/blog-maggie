@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async'
 import maggieHome1 from '../assets/images/maggie-home1.jpg'
 import maggieHome2 from '../assets/images/maggie-home2.jpg'
 import maggieHome3 from '../assets/images/maggie-home3.jpg'
@@ -5,6 +6,14 @@ import maggieHome3 from '../assets/images/maggie-home3.jpg'
 function Home() {
   return (
     <div className='container' style={{ marginTop: '5rem', marginBottom: '5rem' }}>
+      <Helmet>
+        <title>Blog de Maggie 🐾 | Aventuras y Canicross</title>
+        <meta
+          name='description'
+          content='Soy Maggie, una Border Collie de Costa Rica 🐶. En este blog comparto mis aventuras, carreras de canicross y la vida perruna con mis humanos.'
+        />
+        <link rel='canonical' href='https://nicolasjimenez.github.io/blog-maggie/' />
+      </Helmet>
       <div className='row align-items-stretch'>
         {/* CARRUSEL */}
         <div className='col-12 col-md-6 mb-4 mb-md-0 d-flex flex-column justify-content-center'>
