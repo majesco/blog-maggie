@@ -320,6 +320,60 @@ const posts = [
         caption: 'Ningún río nos detiene 🏞️'
       }
     ]
+  },
+  {
+    id: 5,
+    slug: 'entrenar-con-maggie',
+    title: '🐕‍🦺 Entrenar con Maggie',
+    description: 'Retos y apredizajes de correr con mi amiga perruna',
+    coverImage: require('../assets/images/post6-front.jpg'), // imagen principal
+    content: [
+      {
+        type: 'image',
+        src: require('../assets/images/post6-1.jpg'),
+        caption: 'Practicando trucos 🍬'
+      },
+      {
+        type: 'text',
+        value:
+          'Entrenar con Maggie nunca es lineal. Ser equipo significa que el <strong>bienestar de ambas siempre está primero</strong>. Si una de las dos está cansada o ha llegado a su límite, se detiene el entreno —porque cuidar una de la otra es parte de ser un verdadero binomio.'
+      },
+      {
+        type: 'text',
+        value:
+          'Maggie, al ser una <strong>raza de trabajo</strong>, se caracteriza por tener una energía inagotable y un espíritu que siempre quiere más. Muchas veces, aunque esté cansada, seguirá dando todo… y eso no siempre es bueno. Por eso es tan importante aprender a leer sus señales y su lenguaje corporal, para identificar cuándo realmente necesita parar. Así sea en el primer kilómetro o en el último, lo esencial es escucharla.'
+      },
+      {
+        type: 'text',
+        value:
+          'Ya sea entrenando <strong>trail running, corriendo en la ciudad o donde estemos</strong>, debemos estar atentas a esas pequeñas señales que indican que hasta ahí llegó el cuerpo por hoy. Maggie tiene una fuerza impresionante y una gran voluntad de seguir el ritmo, y precisamente por eso es mi responsabilidad reconocer su límite. No se trata de cuánto podamos correr, sino de disfrutar juntas sin que algo placentero se convierta en una carga para ella.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post6-2.jpg'),
+        caption: 'Practicando trucos 🍬'
+      },
+      {
+        type: 'text',
+        value:
+          'También es importante <strong>no caer en el error de pensar que todos los días hay que correr</strong>. Entrenar no siempre significa sumar kilómetros. Hay muchas otras formas de trabajar juntas: reforzar comandos, practicar obediencia, estimular su mente o simplemente disfrutar de un momento de calma.'
+      },
+      {
+        type: 'text',
+        value:
+          'Para nosotras, estos puntos son esenciales para entrenar. Buscamos siempre rendir al máximo, pero sobre todo, <strong>disfrutar el proceso</strong>. Porque más allá de los resultados, lo más bonito es compartirlo. En competencia Maggie se transforma: se pone en “modo carrera” y corre distinto, con una energía que contagia. Ella sabe perfectamente cuándo estamos compitiendo, y ese momento es simplemente mágico.'
+      },
+      {
+        type: 'text',
+        value:
+          'A lo largo de este proceso, practicando <strong>Canicross en Costa Rica</strong>, hemos aprendido mucho. Y queremos compartir esos aprendizajes con quienes también aman correr con su perro y desean ver crecer esta hermosa disciplina, tanto en eventos recreativos como competitivos.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post6-3.jpg'),
+        caption: 'Amo los palos 🪾'
+      }
+    ]
   }
 ]
 
