@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/blog-maggie/static/js/main.fa9ee2b9.js",
+    "main.js": "/blog-maggie/static/js/main.2943ab55.js",
     "static/media/post5-front.jpg": "/blog-maggie/static/media/post5-front.16354dd3e095529c52be.jpg",
     "static/media/post4-front.jpg": "/blog-maggie/static/media/post4-front.a2e216e179cf511f18d4.jpg",
     "static/media/about.jpg": "/blog-maggie/static/media/about.7ccdadc5f4815e223856.jpg",
@@ -12,6 +12,7 @@
     "static/media/post1-front.jpg": "/blog-maggie/static/media/post1-front.e2268b3c88c3eb78e810.jpg",
     "static/media/post1-3.jpg": "/blog-maggie/static/media/post1-3.58b2a2710bbc3f89f9e2.jpg",
     "static/media/maggie-home1.jpg": "/blog-maggie/static/media/maggie-home1.26bb15c94e100f5e0158.jpg",
+    "static/media/post7-front.jpg": "/blog-maggie/static/media/post7-front.e802891b35f1ce8f7abc.jpg",
     "static/media/maggie-home3.jpg": "/blog-maggie/static/media/maggie-home3.cdfbbea6cc7d50c52d4f.jpg",
     "static/media/post6-front.jpg": "/blog-maggie/static/media/post6-front.07f7f3ee9eaf3370a4e0.jpg",
     "static/media/post5-2.jpg": "/blog-maggie/static/media/post5-2.7c043c64c58b68b5fd71.jpg",
@@ -30,9 +31,9 @@
     "static/media/post3-front.jpg": "/blog-maggie/static/media/post3-front.f7be4f40cb888a2e4e98.jpg",
     "static/media/maggie-home2.jpg": "/blog-maggie/static/media/maggie-home2.356b5c13d509f477d0f6.jpg",
     "index.html": "/blog-maggie/index.html",
-    "main.fa9ee2b9.js.map": "/blog-maggie/static/js/main.fa9ee2b9.js.map"
+    "main.2943ab55.js.map": "/blog-maggie/static/js/main.2943ab55.js.map"
   },
   "entrypoints": [
-    "static/js/main.fa9ee2b9.js"
+    "static/js/main.2943ab55.js"
   ]
 }
