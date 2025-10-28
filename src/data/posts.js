@@ -351,7 +351,7 @@ const posts = [
       {
         type: 'image',
         src: require('../assets/images/post6-2.jpg'),
-        caption: 'Practicando trucos 🍬'
+        caption: 'Esperando para cruzar la calle 🚦'
       },
       {
         type: 'text',
@@ -372,6 +372,119 @@ const posts = [
         type: 'image',
         src: require('../assets/images/post6-3.jpg'),
         caption: 'Amo los palos 🪾'
+      }
+    ]
+  },
+  {
+    id: 6,
+    slug: 'esenciales-entrenar-canicross',
+    title: 'Esenciales para entrenar Canicross',
+    description: 'Nuestro deporte favorito',
+    coverImage: require('../assets/images/post7-front.jpg'), // imagen principal
+    content: [
+      {
+        type: 'text',
+        value: '<strong>1. Empieza por la base</strong>'
+      },
+      {
+        type: 'text',
+        value:
+          'Antes de correr juntos, asegúrate de que tu perro tenga buena condición física. Llévalo a una revisión veterinaria y consulta si está apto para correr o si hay alguna recomendación especial. Comienza de forma progresiva: camina, trota y haz paseos largos. No todo será correr; también habrá pausas y momentos de adaptación.'
+      },
+      {
+        type: 'text',
+        value: '<strong>2. Entrena progresivamente</strong>'
+      },
+      {
+        type: 'text',
+        value:
+          'Aumenta las distancias y la velocidad poco a poco. Empieza con tramos cortos (1–2 km) y añade más kilómetros conforme tu perro gane resistencia. Siempre verifica que no esté al límite, aunque él quiera seguir.'
+      },
+      {
+        type: 'text',
+        value: '<strong>3. Usa el equipo adecuado</strong>'
+      },
+      {
+        type: 'text',
+        value: `<p><strong>El equipo correcto da seguridad y mejora el rendimiento:</strong></p>
+<ul>
+  <li><strong>Arnés de tiro anatómico:</strong> no debe limitar el movimiento ni causar rozaduras.</li>
+  <li><strong>Línea elástica de Canicross:</strong> conecta tu arnés con el de tu perro y amortigua el tirón.</li>
+  <li><strong>Cinturón de tracción para ti:</strong> asegúrate de ajustarlo bien a tu cintura para evitar lesiones.</li>
+</ul>
+<p>Hay marcas nacionales excelentes y opciones internacionales; elige lo que mejor se adapte a ambos.</p>`
+      },
+      {
+        type: 'text',
+        value: '<strong>4. Evita el calor</strong>'
+      },
+      {
+        type: 'text',
+        value: `<p>Entrena temprano en la mañana (antes de las 9 a.m.) o al final de la tarde (después de las 4 p.m.).</p>
+        <p>Busca rutas con sombra y lleva siempre agua. El golpe de calor es un riesgo real.</p>`
+      },
+      {
+        type: 'text',
+        value: `<p><strong>5. Lenguaje corporal de cansancio</strong></p>
+<p>
+  Aprender a reconocer cuándo tu perro está agotado es fundamental para evitar lesiones o sobreesfuerzo.
+  Algunas señales comunes de fatiga son:
+</p>
+<ul>
+  <li>Arrastrar las patas o perder ritmo</li>
+  <li>Respiración muy agitada o irregular</li>
+  <li>Lengua con los bordes hacia afuera y curvados hacia arriba (forma de “palita”)</li>
+</ul>
+<p>
+  Si notas alguno de estos signos, detén el entrenamiento de inmediato. No importa si apenas llevan un kilómetro:
+  su bienestar siempre debe ser la prioridad.
+</p>
+
+<p><strong>6. Refuerza las órdenes</strong></p>
+<p>
+  Tu perro debe conocer comandos básicos para correr juntos de forma segura:
+</p>
+<ul>
+  <li><strong>“Go / Vamos”</strong> → iniciar</li>
+  <li><strong>“Left / Right” o “Izquierda / Derecha”</strong> → girar</li>
+  <li><strong>“Stop / Frena”</strong> → detenerse</li>
+</ul>
+<p>
+  La comunicación entre ambos evita accidentes y mejora la sincronía.
+</p>
+
+<p><strong>7. Revisa la salud de ambos</strong></p>
+<p>
+  No lo des por hecho. Realiza chequeos veterinarios regulares, verifica que tu perro esté libre de lesiones,
+  parásitos y bien alimentado.
+</p>
+<p>
+  Y claro, el humano también debe cuidarse: exámenes, descanso y buena nutrición.
+</p>
+
+<p><strong>8. Cuida sus patas (y tu calzado)</strong></p>
+<p>
+  Revisa sus almohadillas antes y después de cada entrenamiento.
+  Si corres en terrenos ásperos, usa cremas protectoras o botines.
+</p>
+<p>
+  Unas patas sanas son clave para un binomio feliz.
+</p>
+
+<p><strong>9. No entrenes todos los días</strong></p>
+<p>
+  Dale descanso uno o dos días a la semana.
+  Tu perro siempre querrá acompañarte, pero el descanso también es entrenamiento.
+</p>
+<p>
+  Recuperar energía es lo que les permitirá seguir disfrutando del Canicross por mucho tiempo.
+</p>`
+      },
+      {
+        type: 'text',
+        value: `<hr>
+        <p>Estos son algunos de los puntos que hemos aprendido en nuestro día a día con Maggie, y que nos han ayudado a crecer como equipo.
+Cada entrenamiento es una oportunidad para conocernos mejor, para disfrutar, y para seguir construyendo ese lazo tan especial que solo se crea cuando corres junto a tu mejor amiga de cuatro patas. 💛🐾</p>`
       }
     ]
   }
