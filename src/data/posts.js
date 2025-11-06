@@ -405,6 +405,11 @@ const posts = [
         value: '<strong>3. Usa el equipo adecuado</strong>'
       },
       {
+        type: 'image',
+        src: require('../assets/images/post7-1.jpg'),
+        caption: 'Corriendo con el equipo adecuado para evitar lesiones.'
+      },
+      {
         type: 'text',
         value: `<p><strong>El equipo correcto da seguridad y mejora el rendimiento:</strong></p>
 <ul>
@@ -413,6 +418,11 @@ const posts = [
   <li><strong>Cinturón de tracción para ti:</strong> asegúrate de ajustarlo bien a tu cintura para evitar lesiones.</li>
 </ul>
 <p>Hay marcas nacionales excelentes y opciones internacionales; elige lo que mejor se adapte a ambos.</p>`
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post7-2.jpg'),
+        caption: 'Lo que llevamos a las carreras!'
       },
       {
         type: 'text',
@@ -438,9 +448,11 @@ const posts = [
 <p>
   Si notas alguno de estos signos, detén el entrenamiento de inmediato. No importa si apenas llevan un kilómetro:
   su bienestar siempre debe ser la prioridad.
-</p>
-
-<p><strong>6. Refuerza las órdenes</strong></p>
+</p>`
+      },
+      {
+        type: 'text',
+        value: `<p><strong>6. Refuerza las órdenes</strong></p>
 <p>
   Tu perro debe conocer comandos básicos para correr juntos de forma segura:
 </p>
@@ -451,9 +463,16 @@ const posts = [
 </ul>
 <p>
   La comunicación entre ambos evita accidentes y mejora la sincronía.
-</p>
-
-<p><strong>7. Revisa la salud de ambos</strong></p>
+</p>`
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post7-3.jpg'),
+        caption: 'Practicando comandos'
+      },
+      {
+        type: 'text',
+        value: `<p><strong>7. Revisa la salud de ambos</strong></p>
 <p>
   No lo des por hecho. Realiza chequeos veterinarios regulares, verifica que tu perro esté libre de lesiones,
   parásitos y bien alimentado.
@@ -469,9 +488,16 @@ const posts = [
 </p>
 <p>
   Unas patas sanas son clave para un binomio feliz.
-</p>
-
-<p><strong>9. No entrenes todos los días</strong></p>
+</p>`
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post7-4.jpg'),
+        caption: 'Visita veterinaria'
+      },
+      {
+        type: 'text',
+        value: `<p><strong>9. No entrenes todos los días</strong></p>
 <p>
   Dale descanso uno o dos días a la semana.
   Tu perro siempre querrá acompañarte, pero el descanso también es entrenamiento.
