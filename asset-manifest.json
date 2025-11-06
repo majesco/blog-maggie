@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/blog-maggie/static/js/main.2943ab55.js",
+    "main.js": "/blog-maggie/static/js/main.1bd1f005.js",
     "static/media/post5-front.jpg": "/blog-maggie/static/media/post5-front.16354dd3e095529c52be.jpg",
+    "static/media/post7-3.jpg": "/blog-maggie/static/media/post7-3.aada09a0cdb7751d6874.jpg",
+    "static/media/post7-2.jpg": "/blog-maggie/static/media/post7-2.9eb2ccb3484b2f433482.jpg",
     "static/media/post4-front.jpg": "/blog-maggie/static/media/post4-front.a2e216e179cf511f18d4.jpg",
     "static/media/about.jpg": "/blog-maggie/static/media/about.7ccdadc5f4815e223856.jpg",
     "static/media/post1-1.jpg": "/blog-maggie/static/media/post1-1.1ebc6dd3fe4c7ec22241.jpg",
+    "static/media/post7-1.jpg": "/blog-maggie/static/media/post7-1.f195d8cb48d9119cd52c.jpg",
     "static/media/maggie-blog.jpg": "/blog-maggie/static/media/maggie-blog.a684fef18c2c6a2ac99f.jpg",
     "static/media/post6-3.jpg": "/blog-maggie/static/media/post6-3.8f9b4f7af9f19ae4c940.jpg",
     "static/media/post5-1.jpg": "/blog-maggie/static/media/post5-1.b335754e3ed048c34945.jpg",
@@ -25,15 +28,16 @@
     "static/media/post3-2.jpg": "/blog-maggie/static/media/post3-2.ca967d466c82fabaf381.jpg",
     "static/media/post2-2.jpg": "/blog-maggie/static/media/post2-2.c055368ddec0e6c8fcc9.jpg",
     "static/media/post2-1.jpg": "/blog-maggie/static/media/post2-1.a5915c9f448c38010705.jpg",
+    "static/media/post7-4.jpg": "/blog-maggie/static/media/post7-4.2ce9fb270644f3b39569.jpg",
     "static/media/post4-3.jpg": "/blog-maggie/static/media/post4-3.faeb8b068099ddf8fce4.jpg",
     "static/media/post2-4.jpg": "/blog-maggie/static/media/post2-4.145f70d33f62c343212f.jpg",
     "static/media/post2-3.jpg": "/blog-maggie/static/media/post2-3.a40d4113bca11dc482ea.jpg",
     "static/media/post3-front.jpg": "/blog-maggie/static/media/post3-front.f7be4f40cb888a2e4e98.jpg",
     "static/media/maggie-home2.jpg": "/blog-maggie/static/media/maggie-home2.356b5c13d509f477d0f6.jpg",
     "index.html": "/blog-maggie/index.html",
-    "main.2943ab55.js.map": "/blog-maggie/static/js/main.2943ab55.js.map"
+    "main.1bd1f005.js.map": "/blog-maggie/static/js/main.1bd1f005.js.map"
   },
   "entrypoints": [
-    "static/js/main.2943ab55.js"
+    "static/js/main.1bd1f005.js"
   ]
 }
