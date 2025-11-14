@@ -379,9 +379,15 @@ const posts = [
     id: 6,
     slug: 'esenciales-entrenar-canicross',
     title: 'Esenciales para entrenar Canicross',
-    description: 'Nuestro deporte favorito',
+    description: 'Entrenar con Maggie',
     coverImage: require('../assets/images/post7-front.jpg'), // imagen principal
     content: [
+      {
+        type: 'text',
+        value: `A veces las personas se acercan a preguntar cómo hacemos para correr juntas y que Maggie se mantenga tan enfocada. 🐶💨
+          La verdad es que tenemos una lista de esenciales que nos ayudan a que cada salida sea <strong>provechosa, divertida y especial. 💕</strong>
+          Tenemos muchos más, pero hoy compartimos <strong>nuestros favoritos</strong>. ¡Esperamos que también les sirvan para disfrutar al máximo con sus perritos! 🐕✨`
+      },
       {
         type: 'text',
         value: '<strong>1. Empieza por la base</strong>'
