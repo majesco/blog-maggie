@@ -322,7 +322,7 @@ const posts = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     slug: 'entrenar-con-maggie',
     title: '🐕‍🦺 Entrenar con Maggie',
     description: 'Retos y apredizajes de correr con mi amiga perruna',
@@ -376,7 +376,7 @@ const posts = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     slug: 'esenciales-entrenar-canicross',
     title: 'Esenciales para entrenar Canicross',
     description: 'Entrenar con Maggie',
@@ -517,6 +517,103 @@ const posts = [
         value: `<hr>
         <p>Estos son algunos de los puntos que hemos aprendido en nuestro día a día con Maggie, y que nos han ayudado a crecer como equipo.
 Cada entrenamiento es una oportunidad para conocernos mejor, para disfrutar, y para seguir construyendo ese lazo tan especial que solo se crea cuando corres junto a tu mejor amiga de cuatro patas. 💛🐾</p>`
+      }
+    ]
+  },
+  {
+    id: 8,
+    slug: 'pata-caliente-navidena-2025',
+    title: '🐾 Pata Caliente – Edición Navideña 🎄',
+    description: 'Carrera y búsqueda del tesoro en vísperas de la navidad',
+    coverImage: require('../assets/images/post8-front.jpg'), // imagen principal
+    content: [
+      {
+        type: 'text',
+        value:
+          'El evento <strong>Pata Caliente – Edición Navideña</strong> se realizó en la <strong>Universidad para la Paz</strong>, en Ciudad Colón. Días antes estuvimos alistando todos los implementos, y el día del evento nos levantamos bien temprano. El camino hacia allá estaba despejado, y tardamos aproximadamente 45 minutos en llegar.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post8-1.jpg'),
+        caption: 'Foto con mi cachos de reno antes de comenzar'
+      },
+      {
+        type: 'text',
+        value:
+          'La actividad consistía en <strong>dos fases principales</strong>:  <ol aria-label="Lista de eventos"><li>El Canitrail</li><li>La Misión Navideña</li></ol>'
+      },
+      {
+        type: 'text',
+        value: '<strong>🏃‍♀️ Canitrail con Maggie</strong>'
+      },
+      {
+        type: 'text',
+        value:
+          'El <i>Canitrail</i> es lo nuestro —para eso Maggie y yo entrenamos tanto— 💪🐶. El terreno estaba bastante <strong>lodoso y húmedo</strong>, lo que hizo la carrera aún más retadora.'
+      },
+      {
+        type: 'text',
+        value:
+          'Apenas llegamos, <strong>Maggie</strong> empezó a olfatear todo con su curiosidad de siempre. Hicimos el check-in y esperamos la señal de salida. La carrera iniciaba en <strong>pelotón</strong>, todos al mismo tiempo, y eso me preocupaba un poco porque Maggie suele apartarse cuando hay muchos perros o personas muy cerca.'
+      },
+      {
+        type: 'text',
+        value:
+          'Cuando sonó el pitazo… ¡fue pura <strong>adrenalina y diversión!</strong> 🚀 Íbamos concentradas en mantener un buen ritmo y mejorar nuestro tiempo. Poco a poco fuimos adelantando a otros competidores, disfrutando cada tramo del sendero entre lodo, naturaleza y risas.'
+      },
+      {
+        type: 'text',
+        value:
+          'Faltando unos 800 metros, nos enredamos con un árbol 😅 y perdimos la ventaja que habíamos logrado, pero aun así cruzamos la meta felices. Nuestro objetivo se cumplió: mejoramos el tiempo y disfrutamos la experiencia al máximo.'
+      },
+      {
+        type: 'text',
+        value: `<p>Después de llegar, aprovechamos para recorrer los puestos de las marcas participantes. Había de todo:</p>
+
+<ul>
+  <li>🦴 productos para perros</li>
+  <li>🍦 helados y yogures (¡Maggie tuvo sus muestras, claro!)</li>
+  <li>🎁 y varias cositas lindas que no pudimos resistir comprar.</li>
+</ul>`
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post8-3.jpg'),
+        caption: 'Después de correr con mi humana 🐕‍🦺'
+      },
+      {
+        type: 'text',
+        value: '<br><strong>🎅🏼 La Misión Navideña</strong>'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post8-2.jpg'),
+        caption: 'Encontramos las 2 esferas 🕵🏻‍♂️'
+      },
+      {
+        type: 'text',
+        value: `La segunda parte del evento fue la Misión Navideña, una búsqueda de esferas navideñas escondidas en medio de la naturaleza 🎄. Dentro de cada esfera había cupones de marcas patrocinadoras, canjeables por premios ese mismo día.`
+      },
+      {
+        type: 'text',
+        value: `Fue súper divertido, porque las esferas estaban entre ramas y arbustos, ¡y no era nada fácil verlas!
+Gracias al reflejo de la cinta dorada, logramos encontrar la primera 🥳.
+La segunda costó un poquito más, hasta que decidimos ir hacia una zona más despejada… ¡y ahí estaba! ✨
+`
+      },
+      {
+        type: 'text',
+        value: `El ambiente fue precioso: <strong>familiar, alegre y lleno de espíritu navideño.</strong>
+Después de canjear los premios, se realizó la <strong>premiación de los ganadores del Canitrail femenino y masculino</strong>, e incluso hubo una carrera de niños, que cerró el evento con ternura y muchas sonrisas. 🏅👧👦`
+      },
+      {
+        type: 'text',
+        value: `<br><strong>❤️ Un día para recordar</strong>`
+      },
+      {
+        type: 'text',
+        value: `Fue un día increíble, lleno de deporte, naturaleza, comunidad y alegría.
+Maggie y yo disfrutamos cada momento, desde la carrera hasta la misión, y nos fuimos con el corazón lleno y la nariz embarrada de felicidad 🐾💚`
       }
     ]
   }
