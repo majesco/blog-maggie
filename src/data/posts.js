@@ -623,7 +623,7 @@ Maggie y yo disfrutamos cada momento, desde la carrera hasta la misión, y nos f
     title: '🏡 La magia de llegar a casa y que te espere tu peludo 🐾',
     description:
       'Ese momento especial cuando vuelves a casa y tu mejor amigo de cuatro patas te recibe con felicidad pura.',
-    coverImage: require('../assets/images/post8-front.jpg'),
+    coverImage: require('../assets/images/post9-front.jpg'),
     content: [
       {
         type: 'text',
@@ -655,8 +655,8 @@ Maggie y yo disfrutamos cada momento, desde la carrera hasta la misión, y nos f
       },
       {
         type: 'image',
-        src: require('../assets/images/post8-1.jpg'),
-        caption: 'Esperando pacientemente a que lleguemos a casa 🐶'
+        src: require('../assets/images/post9-1.jpg'),
+        caption: 'Esperando pacientemente a que lleguemos a casa 🐶 con su peluche'
       },
       {
         type: 'text',
@@ -674,7 +674,7 @@ Maggie y yo disfrutamos cada momento, desde la carrera hasta la misión, y nos f
       },
       {
         type: 'image',
-        src: require('../assets/images/post8-2.jpg'),
+        src: require('../assets/images/post9-front.jpg'),
         caption: 'La felicidad de ver llegar a su humano 💛'
       },
       {
@@ -698,7 +698,7 @@ Maggie y yo disfrutamos cada momento, desde la carrera hasta la misión, y nos f
       },
       {
         type: 'image',
-        src: require('../assets/images/post8-3.jpg'),
+        src: require('../assets/images/post9-3.jpg'),
         caption: 'Esperando frente a la puerta 🐾'
       },
       {
