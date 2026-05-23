@@ -616,6 +616,111 @@ Después de canjear los premios, se realizó la <strong>premiación de los ganad
 Maggie y yo disfrutamos cada momento, desde la carrera hasta la misión, y nos fuimos con el corazón lleno y la nariz embarrada de felicidad 🐾💚`
       }
     ]
+  },
+  {
+    id: 9,
+    slug: 'la-magia-de-llegar-a-casa',
+    title: '🏡 La magia de llegar a casa y que te espere tu peludo 🐾',
+    description:
+      'Ese momento especial cuando vuelves a casa y tu mejor amigo de cuatro patas te recibe con felicidad pura.',
+    coverImage: require('../assets/images/post8-front.jpg'),
+    content: [
+      {
+        type: 'text',
+        value:
+          'La mayoría de nosotros salimos cada día de casa para ir al trabajo. Otros salen solo unas horas y regresan para terminar su jornada desde casa.'
+      },
+      {
+        type: 'text',
+        value:
+          'Nuestras rutinas cambian constantemente entre responsabilidades, horarios y actividades… pero cuando tenemos un amigo de cuatro patas, siempre buscamos ajustar nuestra vida lo más posible para compartir tiempo con ellos.'
+      },
+      {
+        type: 'text',
+        value: `
+<p>A diario escucho frases como:</p>
+
+<p><strong>“Debo irme pronto porque mi mascota está sola en casa.”</strong></p>
+`
+      },
+      {
+        type: 'text',
+        value:
+          'Y es verdad. Muchas veces estamos en el trabajo pensando si nuestro peludito estará bien, si ya descansó, si quiere salir o simplemente si nos estará esperando.'
+      },
+      {
+        type: 'text',
+        value:
+          'Muchos nos levantamos más temprano para darles una vuelta antes de ir a trabajar. Y si llueve por la tarde, igual nos las ingeniamos para hacer aunque sea una salida rápida. No solamente porque algunas razas necesiten actividad física, sino porque disfrutamos verlos felices con nosotros… y ellos disfrutan estar a nuestro lado.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post8-1.jpg'),
+        caption: 'Esperando pacientemente a que lleguemos a casa 🐶'
+      },
+      {
+        type: 'text',
+        value:
+          'Cuando salimos de casa, ellos quedan seguros en su hogar. Pero con el pasar de las horas empiezan a extrañarnos. No porque entiendan el tiempo como nosotros, sino porque nuestro aroma empieza a disiparse poco a poco, y así saben que llevamos bastante rato fuera.'
+      },
+      {
+        type: 'text',
+        value:
+          'Por eso muchas veces los encontramos acostados en nuestras camas, sillones o lugares donde queda nuestro olor. Eso les da tranquilidad y seguridad.'
+      },
+      {
+        type: 'text',
+        value: 'Y sinceramente… ¿quién puede resistirse a ese momento de llegar a casa y verlos felices?'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post8-2.jpg'),
+        caption: 'La felicidad de ver llegar a su humano 💛'
+      },
+      {
+        type: 'text',
+        value:
+          'Aunque estemos agotados, siempre nos reciben con ladridos, colitas agitadas y una emoción imposible de fingir. Yo creo que nadie podría resistirse a algo así.'
+      },
+      {
+        type: 'text',
+        value:
+          'Lo más increíble es que incluso antes de cruzar la puerta, ellos ya saben que estamos por llegar. Han memorizado nuestro olor, reconocen nuestros pasos, nuestra silueta e incluso el sonido del carro entrando a casa.'
+      },
+      {
+        type: 'text',
+        value: 'Como experiencia personal, Maggie sabe perfectamente cuándo uno de los dos está por llegar.'
+      },
+      {
+        type: 'text',
+        value:
+          'Justo cuando escucha el carro entrando a la cochera, se asoma desde la terraza, empieza a correr por toda la casa, hace pequeños sonidos de emoción y termina sentándose frente a la puerta esperando que entremos.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post8-3.jpg'),
+        caption: 'Esperando frente a la puerta 🐾'
+      },
+      {
+        type: 'text',
+        value: 'Es de las cosas más tiernas que le he visto hacer.'
+      },
+      {
+        type: 'text',
+        value:
+          'Así que si tienes un peludito esperándote en casa, eres muy afortunado. Porque no importa qué tan pesado haya sido tu día… siempre habrá alguien esperándote con amor puro y una cola moviéndose de felicidad.'
+      },
+      {
+        type: 'text',
+        value: `
+<p class="lead text-center mt-5">
+  <strong>
+    POV: llegas cansada a casa y alguien te recibe como si fueras la mejor parte de su día. 🐾
+  </strong>
+</p>
+`
+      }
+    ]
   }
 ]
 
