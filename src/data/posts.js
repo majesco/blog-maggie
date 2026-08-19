@@ -721,6 +721,84 @@ Maggie y yo disfrutamos cada momento, desde la carrera hasta la misión, y nos f
 `
       }
     ]
+  },
+  {
+    id: 10,
+    slug: 'pata-fest-2026-nuestro-regreso-al-ruedo',
+    title: 'Pata Fest 2026: nuestro regreso al ruedo 🐾💚',
+    description: 'Nuestro regreso al Canicross en Pata Fest 2026.',
+    coverImage: require('../assets/images/post10-front.jpg'),
+    content: [
+      {
+        type: 'text',
+        value:
+          'Después de varios meses alejadas de las competiciones, por fin volvimos al ruedo. Llegamos con muchas ganas de disfrutar, reconectarnos con este deporte que tanto amamos y enfocadas en regresar fuertes, pero sobre todo, en pasarla increíble juntas.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post10-1.jpg'),
+        caption: 'Antes de la compe!'
+      },
+      {
+        type: 'text',
+        value:
+          'Desde que llegamos, nos sorprendió lo bien organizada que estaba toda la actividad. El evento se realizó en el Parque La Libertad, muy cerca de San José, un lugar que no conocíamos y que definitivamente nos encantó. El ambiente era perfecto: naturaleza, muchísimos perros felices y personas compartiendo la misma pasión.'
+      },
+      {
+        type: 'text',
+        value:
+          'Había una gran variedad de stands con productos hermosos para nuestras mascotas. Por supuesto, nos dimos una vuelta para ver todo y apoyar a algunos emprendimientos. Terminamos comprando un par de cositas porque, sinceramente, era imposible no antojarse.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post10-2.jpg'),
+        caption: 'Calentando antes de iniciar.'
+      },
+      {
+        type: 'text',
+        value: 'Y entonces llegó el momento de la competición.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post10-3.jpg'),
+        caption: 'Banderazo de salida 🏁'
+      },
+      {
+        type: 'text',
+        value:
+          'La ruta era de 5,7 km llenos de adrenalina, barro, naturaleza y diversión asegurada. Logramos mantener un buen ritmo, con Maggie haciendo lo que mejor sabe hacer: jalar con fuerza y querer avanzar siempre. En este tipo de eventos se le activa ese modo competitivo que solo aparece cuando está en carrera, y verla disfrutar tanto es una de mis partes favoritas.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post10-4.jpg'),
+        caption: 'Completando la primera vuelta 🏇'
+      },
+      {
+        type: 'text',
+        value:
+          'Corrimos, disfrutamos cada sendero y nos tomamos el tiempo para vivir cada kilómetro. Claro que hubo un momento muy divertido: después de pasar la meta por primera vez, Maggie estaba convencida de que ya habíamos terminado. Cuando se dio cuenta de que aún faltaba otra vuelta, no estaba tan segura de querer continuar. Y, para empeorar las cosas, vio a su team de apoyo y más bien quería quedarse con ellos.'
+      },
+      {
+        type: 'text',
+        value:
+          'Pero seguimos adelante, completamos nuestra segunda vuelta y cruzamos la meta con muchísimo calor, cansadas, pero inmensamente felices. Felices de saber que esa sí era la meta final y, sobre todo, de haber vuelto al ruedo.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post10-5.jpg'),
+        caption: 'Chineos tras acabar la carrera 💅🏻🐾'
+      },
+      {
+        type: 'text',
+        value:
+          'Porque al final, más allá de los tiempos o los resultados, lo que realmente coleccionamos son momentos y kilómetros felices juntas. 🐶🏃‍♀️💚'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post10-6.jpg'),
+        caption: 'Mi nuevo collar de @Guaufits 💎'
+      }
+    ]
   }
 ]
 
