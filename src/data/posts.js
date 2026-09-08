@@ -799,6 +799,106 @@ Maggie y yo disfrutamos cada momento, desde la carrera hasta la misión, y nos f
         caption: 'Mi nuevo collar de @Guaufits 💎'
       }
     ]
+  },
+  {
+    id: 11,
+    slug: 'perrocross-2026',
+    title: 'Perrocross 2026 🐾🏆',
+    description: 'Una carrera especial, nuevos kilómetros juntas y el primer lugar de nuestra categoría.',
+    coverImage: require('../assets/images/post11-front.jpg'),
+    content: [
+      {
+        type: 'text',
+        value:
+          'Este año, después de decidir bajar un poco el ritmo de competición y de vivir algunos acontecimientos que nos hicieron bajar el ritmo y la motivación, nos inscribimos en esta competencia de Perrocross.'
+      },
+      {
+        type: 'text',
+        value:
+          'Cuando conocimos el formato y todo lo que había detrás de esta carrera, nos cautivó y no dudamos en participar. Eso sí, en una categoría un poco diferente, pero igual de exigente.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post11-1.jpg'),
+        caption: 'Listas para disfrutar una nueva aventura 🐾'
+      },
+      {
+        type: 'text',
+        value:
+          'Era una carrera dedicada a las madres y, además, los trofeos estaban inspirados en los Border Collie. 🐾 Y como Maggie es una de ellas, nos gustó todavía más. Así que decidimos participar, sumar kilómetros juntas y, sobre todo, disfrutar, porque si corremos juntas, siempre es mejor.'
+      },
+      {
+        type: 'text',
+        value:
+          'También fue una oportunidad para conocer un lugar nuevo, perfecto para este tipo de eventos. La hora nos encantó: en la tarde, algo muy diferente a lo habitual, cuando toca madrugar y hasta Maggie lo resiente. 😂'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post11-2.jpg'),
+        caption: 'Juntas antes de cruzar el arco de salida'
+      },
+      {
+        type: 'text',
+        value:
+          'El clima estuvo lluvioso y húmedo, pero sin aguaceros. Unos minutos antes de salir cayó un pequeño chubasco que, por supuesto, dejó más lodo y aseguró la diversión. 🤎🐾'
+      },
+      {
+        type: 'text',
+        value:
+          'Desde que llegamos, Maggie ya sabía lo que venía: adrenalina, emoción y mucha diversión. Al momento de salir, recuerdo que nos dijeron: <em>“¡Vamos! Ustedes pueden llevarse ese trofeo”</em>. Lo pensé y dije: ¿por qué no?'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post11-3.jpg'),
+        caption: 'Maggie despegando como un cohete 🚀'
+      },
+      {
+        type: 'text',
+        value:
+          'Llegó nuestro momento y Maggie hizo lo suyo: despegó como un cohete. 🚀 Mucha fuerza, energía y el impulso perfecto. Corrimos fuerte, siguiendo su ritmo, y por momentos se sentía como si fuéramos completamente sincronizadas.'
+      },
+      {
+        type: 'text',
+        value:
+          'Porque llevarle el ritmo a esas cuatro patas no es cualquier cosa. 😂 Corrimos fuerte de principio a fin, riendo, saltando charcos y haciendo un par de paradas técnicas porque mi resfrío me obligó a bajar un poco el ritmo. Pero seguimos.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post11-4.jpg'),
+        caption: 'Lodo, aventura y una Maggie feliz 🤎'
+      },
+      {
+        type: 'text',
+        value:
+          'Corrimos con el corazón, y también en honor a las mamás que tenemos y a las que este año partieron al cielo. Eso hizo que esta carrera fuera aún más especial. ❤️'
+      },
+      {
+        type: 'text',
+        value:
+          'La ruta estuvo a la altura del evento y la organización fue excelente. Disfrutamos muchísimo cada momento y, sin duda, vivir un Perrocross al menos una vez en la vida es una experiencia que vale la pena.'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post11-5.jpg'),
+        caption: 'Primer lugar de nuestra categoría 🏆🥇'
+      },
+      {
+        type: 'text',
+        value: 'Y al final, nos llevamos el primer lugar de nuestra categoría. 🏆🥇'
+      },
+      {
+        type: 'image',
+        src: require('../assets/images/post11-6.jpg'),
+        caption: 'Maggie junto a su trofeo de Border Collie 🐾'
+      },
+      {
+        type: 'text',
+        value: `
+<p class="lead text-center mt-5">
+  <strong>Correr con Maggie siempre será de las mejores temporadas de mi vida. 🐾❤️</strong>
+</p>`
+      }
+    ]
   }
 ]
 
